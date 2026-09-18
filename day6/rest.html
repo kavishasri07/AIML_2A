@@ -1,0 +1,16 @@
+<html>
+<body>
+<script>
+function addNumbers(...numbers) {
+    let sum = 0;
+    for (let n of numbers) {
+        sum = sum + n;
+    }
+    console.log("Sum: "+ sum);
+}
+let input = prompt("Enter numbers:");
+let numbers = input.split(",").map(Number);
+addNumbers(...numbers);
+</script>
+</body>
+</html>
