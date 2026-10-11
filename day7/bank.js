@@ -1,5 +1,4 @@
 class BankAccount {
-    static bankName = "Bank Name";
     constructor(accNo, holder, bal) {
         this.accNo = accNo;
         this.holder = holder;
@@ -24,8 +23,8 @@ class BankAccount {
     }
 
     static bankInfo() {
-        console.log("Bank Name:", BankAccount.bankName);
-        console.log("Banking Information: Savings, Current and Loan Accounts");
+        console.log("Bank Name: ABC Bank");
+        console.log("Banking Information: Savings and Current");
     }
 }
 
