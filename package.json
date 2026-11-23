@@ -1,0 +1,24 @@
+{
+  "name": "aiml_2a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "thunder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kavishasri07/AIML_2A.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kavishasri07/AIML_2A/issues"
+  },
+  "homepage": "https://github.com/kavishasri07/AIML_2A#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}

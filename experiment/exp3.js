@@ -1,7 +1,7 @@
 const a = require('http');
 const server = a.createServer((req, res) => {
     res.writeHead(200, {
-        'Content-Type': 'html'
+        'Content-Type': 'text/html'
     });
     res.end(`<h1>This is our Base Server.`);
 });
